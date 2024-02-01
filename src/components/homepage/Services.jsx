@@ -7,18 +7,23 @@ export default function Services() {
     "Web Design",
     "Wireframing",
     "UI/UX Design",
-    "Branding",
+
   ];
 
   const toolBoxItems = [
     "JavaScript",
+    "ReactJS",
     "HTML",
     "CSS",
     "Figma",
-    "Webflow",
-    "GSAP",
-    "TailwindCSS",
-    "ReactJS",
+    "SQL",
+    "Rust",
+    "NodeJS",
+    "C#",
+    "Python",
+    
+    
+
   ];
 
   return (
