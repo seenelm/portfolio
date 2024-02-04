@@ -55,9 +55,9 @@ export default function Contact() {
             name="contact"
             action="/contact"
             autoComplete="off"
-            // eslint-disable-next-line react/no-unknown-property
             className="mt-10 font-grotesk"
-            method="POST" 
+            method="POST"
+            data-netlify="true"
           >
             <input type="hidden" name="form-name" value="contact"/>
             <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
@@ -128,7 +128,7 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="mailto:hello@yassinee.com"
+                href="mailto:yelmellouki1@gmail.com"
                 className="group relative w-fit cursor-pointer"
                 target="_blank"
                 rel="noreferrer"
