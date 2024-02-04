@@ -40,7 +40,7 @@ export default function Hero() {
       <div className="z-10 flex flex-col  w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-16 font-bold  uppercase text-accent-300">
         <div className="title 2xl:py-16">
           {/* Learn more about useRef */}
-          <h1 ref={(el) => (titles.current[0] = el)} className="translate-y-96 overflow-visible">
+          <h1 ref={(el) => (titles.current[0] = el)} className="text-10xl translate-y-96 overflow-visible">
             Hey, I&apos;m Yassine
           </h1>
         </div>
