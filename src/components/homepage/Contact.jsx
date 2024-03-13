@@ -52,15 +52,16 @@ export default function Contact() {
             I am currently not available for freelance work. I am accepting new projects starting from June 2024.
           </p>
           <form
-            name="contact"
-            action="/contact"
-            autoComplete="off"
-            className="mt-10 font-grotesk"
-            method="POST"
-            data-netlify="true"
+          action="https://api.web3forms.com/submit"
+          autoComplete="off"
+          className="mt-10 font-grotesk"
+          method="POST"
+          data-netlify="true"
           >
-            <input type="hidden" name="form-name" value="contact"/>
-            <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
+
+          <input type="hidden" name="access_key" value="30b5ead9-3c70-423b-b27c-f57835a25241"/>
+
+          <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
               <div className="relative z-0">
                   <input
                     required
@@ -110,18 +111,14 @@ export default function Contact() {
                 </label>
               </div>
             </div>
-            <button
+          <button
               type="submit"
               className="button group mt-10 border duration-200 hover:border-accent-400 hover:bg-transparent"
             >
-              <span className="relative">
-                <span className="absolute bottom-2 h-1 w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
-                <span className="group-hover:text-accent-400">
-                  Send Message
-                </span>
-              </span>
-            </button>
-          </form>
+            Send Message
+          </button>
+        </form>
+
         </div>
         <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
           <div className="space-y-3 ">
