@@ -39,15 +39,14 @@ export default function Hero() {
     <section id="hero" className="hero relative flex w-full h-screen select-none items-center justify-center" aria-label="hero">
       <div className="z-10 flex flex-col  w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-16 font-bold  uppercase text-accent-300">
         <div className="title 2xl:py-16">
-          {/* Learn more about useRef */}
           <h1 ref={(el) => (titles.current[0] = el)} className="text-[10vw] md:text-[10vw] translate-y-96 overflow-visible">
             Hey, I&apos;m Yassine
           </h1>
         </div>
         <div className=" title 2xl:py-16">
-        <h1 ref={(el) => (titles.current[1] = el)} className="text-[10vw] md:text-[10vw] translate-y-96 font-outline-3 md:font-outline-4 text-transparent overflow-visible">
-  Hey, I&apos;m Yassine
-</h1>
+          <h1 ref={(el) => (titles.current[1] = el)} className="text-[10vw] md:text-[10vw] translate-y-96 font-outline-1 md:font-outline-4 text-transparent overflow-visible">
+            Hey, I&apos;m Yassine
+          </h1>
         </div>
         <div className=" title 2xl:py-16">
           <h1 ref={(el) => (titles.current[2] = el)} className="text-[10vw] md:text-[10vw] translate-y-96 overflow-visible">
