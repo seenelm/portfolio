@@ -1,5 +1,5 @@
 import train from "/src/assets/images/train.webp";
-import memento from "/src/assets/images/memento-desktop.webp";
+import jcs from "/src/assets/images/jcs-mockup.webp";
 import acc from "/src/assets/images/acc-square.webp";
 import daddy from "/src/assets/images/godaddy-desktop.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
@@ -32,7 +32,7 @@ export default function Works({ forwardedRef }) {
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
             link="https://jcshomesllc.com/"
-            img={memento}
+            img={jcs}
             alt="jcshomesllc mockup"
             name="Jcs Homes LLC landing page"
             type="Frontend Development"
