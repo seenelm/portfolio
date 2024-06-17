@@ -30,15 +30,15 @@ export default function Works({ forwardedRef }) {
         </div>
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
-          {/* <Projects
-            link="https://mementostudio.netlify.app/"
+          <Projects
+            link="https://jcshomesllc.com/"
             img={memento}
-            alt="memento landing page mockup"
-            name="memento studio landing page"
+            alt="jcshomesllc mockup"
+            name="Jcs Homes LLC landing page"
             type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
-          /> */}
+            year="2024"
+            tools="HTML • CSS • JavaScript"
+          />
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           {/* <Projects

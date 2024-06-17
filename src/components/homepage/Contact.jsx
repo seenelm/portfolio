@@ -78,6 +78,7 @@ export default function Contact() {
               onSubmit={handleSubmit}
             >
               <input type="hidden" name="access_key" value="30b5ead9-3c70-423b-b27c-f57835a25241"/>
+              <input type="hidden" name="from_name" value="Folio" />
 
               <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
                 <div className="relative z-0">
@@ -120,6 +121,7 @@ export default function Contact() {
                     rows="5"
                     className="peer block w-full appearance-none border-0 border-b border-accent-100 bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
                     placeholder=" "
+                    onInput={(event) => document.getElementById('reply_to').value = event.target.value}
                   ></textarea>
                   <label
                     htmlFor="message"
