@@ -1,5 +1,5 @@
 import train from "/src/assets/images/train.webp";
-import jcs from "/src/assets/images/jcs-mockup.webp";
+import jcs from "/src/assets/images/jcs-desktop.webp";
 import acc from "/src/assets/images/acc-square.webp";
 import daddy from "/src/assets/images/godaddy-desktop.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
