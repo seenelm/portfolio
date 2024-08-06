@@ -1,6 +1,6 @@
 import train from "/src/assets/images/train.webp";
 import jcs from "/src/assets/images/jcs-desktop.webp";
-import acc from "/src/assets/images/acc-square.webp";
+import tanwir from "/src/assets/images/tanwir-square.webp";
 import daddy from "/src/assets/images/godaddy-desktop.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
 import Projects from "../ui/Projects";
@@ -41,15 +41,15 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
-          {/* <Projects
-            link="https://realbusinessaccountants.netlify.app"
-            img={acc}
-            alt="real business accountant project mockup"
-            name="real business accountants"
+          <Projects
+            link="https://tanwir.squarespace.com"
+            img={tanwir}
+            alt="Tanwir Institute Website"
+            name="Tanwir Institute"
             type="Web Design • Frontend Development"
-            year="2023"
+            year="2024"
             tools="HTML • CSS • JavaScript • Figma"
-          /> */}
+          />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
             {/* <Projects
