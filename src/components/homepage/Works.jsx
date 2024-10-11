@@ -52,15 +52,15 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
-            {/* <Projects
-              link="https://godaddyuiclone.netlify.app"
+            <Projects
+              link="https://drjonesandassociates.netlify.app"
               img={daddy}
               alt="godaddy clone page mockup"
               name="GODADDY LANDING PAGE CLONE"
               type="Frontend Development"
               year="2023"
               tools="HTML • TailwindCSS • JavaScript"
-          /> */}
+          />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
           {/* <Projects
