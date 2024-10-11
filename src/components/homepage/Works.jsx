@@ -42,7 +42,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://tanwir.squarespace.com"
+            link="https://tanwir.institute"
             img={tanwir}
             alt="Tanwir Institute Website"
             name="Tanwir Institute"
