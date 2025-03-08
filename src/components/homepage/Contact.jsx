@@ -225,7 +225,7 @@ export default function Contact() {
             <h4 className="text-body-1 font-semibold 2xl:text-4xl">Location</h4>
             <div className="space-y-2 text-body-2 2xl:text-3xl">
               <p>
-                Washington, DC <br></br>
+                New York City, NY <br></br>
                 {time}
               </p>
             </div>

@@ -57,7 +57,7 @@ export default function About() {
               A little about me
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am a full stack developer and designer based in Washington, DC.
+              I am a full stack developer and designer based in New York City, NY.
               <br></br>
               <br></br>I specialize in crafting elevated, intuitive, and
               minimalistic designs for startups and small businesses to help
